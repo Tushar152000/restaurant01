@@ -1,0 +1,27 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 80%;
+   
+    
+}
+.app__header-img :hover{
+    background: var(--color-golden);
+    transition: 0.23s ease-in-out;
+}
+.custom__button:hover{
+    transform: scale(1.1);
+}
+

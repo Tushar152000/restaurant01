@@ -1,0 +1,15 @@
+#app__wrapper-img{
+    width:60%;
+    margin-left: 12rem;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+
+}
+#app__wrapper-img:hover{
+    background: var(--color-golden);
+    transition: 0.32s ease;
+}
+.custom__button:hover{
+     background-color: var(--color-golden);
+     transform: scale(1.1);
+}

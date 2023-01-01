@@ -1,0 +1,59 @@
+.app_bar{
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black);
+  padding:1rem 3rem;
+
+}
+.app_logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+
+
+}
+.app_logo img{
+    width: 150px;
+}
+.app_links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    list-style: none;
+    
+}
+.app_links li{
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.app_links li:hover{
+    color: var(--color-grey);
+   
+    transform: scale(1.1);
+}
+
+
+    
+
+.app_navbar_login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: aliceblue;
+}
+app_navbar_login a{
+    margin:0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.app_navbar_login:hover{
+    color: var(--color-grey);
+    transform: scale(1.2);
+}
